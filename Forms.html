@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <h1>Contact Us</h1>
+
+
+    <form  method="get">
+
+        <label for="fname">First Name :-</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your Name" ><br> <br>
+
+
+        <label for="lname">Last Name :-</label>
+        <input type="text" name="lname" id="lname"> <br><br>
+
+        <label for="email">Email :-</label>
+        <input type="email" name="email" id="email"> <br><br>
+
+        <label for="pass">Password</label>
+        <input type="password" name="password" id="pass"> <br><br>
+
+        <label for="phone">Phone Number :-</label>
+        <input type="number" name="phone" id="phone" minlength="2" step="5" ><br><br>
+
+        <label for="course">Select your Course :-</label>
+
+        <select id="course">
+            <option value="">FULL-STACK</option>
+            <option value="">FRONT-END</option>
+            <option value="">BACK-END</option>
+        </select> <br><br>
+
+
+        select your Gender :-
+
+        Male :-<input type="radio" name="gender">
+        Female :- <input type="radio" name="gender"><br><br>
+
+
+        Hobbies :-
+
+        cricket :- <input type="checkbox" name="cricket">
+        reading :- <input type="checkbox" name="reading">
+        writting :- <input type="checkbox" name="writting"><br><br>
+
+
+        <label for="message">message</label>
+        <textarea id="message" cols="10" rows="5"></textarea> <br><br>
+
+
+        Select your Browser :-
+        <input list="browsers" name="browser">
+
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist><br><br>
+
+
+        <label for="color">Select Your Color :</label>
+        <input type="color" name="" id="color"><br><br>
+
+        <label for="file">Upload your file :-</label>
+        <input type="file" name="" id="" multiple><br><br>
+
+
+
+        <input type="submit" value="Send">
+        <input type="reset" value="clear">
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+    <table border="1">
+        <form>
+
+            <tr>
+                <td><label for="fname">First Name :-</label></td>
+                <td><input type="text" name="fname" id="fname"></td>
+            </tr>
+
+        </form>
+    </table>
+
+
+</body>
+
+</html>
